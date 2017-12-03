@@ -27,6 +27,10 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
 
+# Platform
+TARGET_BOARD_PLATFORM := msm8909
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno304
+
 # Board config
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=
 BOARD_KERNEL_PAGESIZE := 4096
