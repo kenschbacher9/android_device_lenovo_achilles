@@ -66,7 +66,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.bacon \
+    camera.achilles \
     libshim_camera \
     Snap
 
@@ -203,13 +203,13 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.bacon \
-    init.bacon.rc \
+    fstab.achilles \
+    init.achilles.rc \
     init.qcom.power.rc \
     init.qcom.usb.rc \
-    init.recovery.bacon.rc \
-    libinit_bacon \
-    ueventd.bacon.rc
+    init.recovery.achilles.rc \
+    libinit_achilles \
+    ueventd.achilles.rc
 
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh
